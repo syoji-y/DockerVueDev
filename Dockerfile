@@ -7,6 +7,6 @@ RUN apk update && \
     #npm install -g npm && \
     npm install -g npm @vue/cli
 
-#EXPOSE 9050
+EXPOSE 9050
 
 CMD ["bin/sh"]
